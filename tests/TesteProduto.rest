@@ -1,0 +1,11 @@
+#Eduardo Ramos
+### Verbo post - add
+POST http://127.0.0.1:8000/produto/ HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "nome" :"Pastel de Frango",
+    "descricao":"Recheio de Frango",
+    "valor_unitario": "7"
+
+}
