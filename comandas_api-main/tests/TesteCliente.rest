@@ -1,0 +1,22 @@
+#Eduardo Ramos
+### GET method - list all
+GET http://localhost:8000/cliente/ HTTP/1.1
+
+### GET method - list one
+GET http://localhost:8000/cliente/10 HTTP/1.1
+
+### POST method - add one
+POST http://localhost:8000/cliente/ HTTP/1.1
+
+### PUT method - edit one
+PUT http://localhost:8000/cliente/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome" : "Eduardo Ramos",
+    "cpf" : "01247366960",
+    "telefone" : "49999516632"
+}
+
+### DELETE method - remove one
+DELETE http://localhost:8000/cliente/3 HTTP/1.1
